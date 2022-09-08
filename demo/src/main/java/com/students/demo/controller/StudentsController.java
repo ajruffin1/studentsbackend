@@ -16,6 +16,10 @@ import com.students.demo.model.Students;
 import com.students.demo.repository.StudentsRepository;
 import com.students.demo.resource.StudentsRequest;
 @CrossOrigin(value= "https://studentsbackendmain.herokuapp.com/students")
+Access-Control-Allow-Origin : https://studentsbackendmain.herokuapp.com/students
+Access-Control-Allow-Credentials : true
+Access-Control-Allow-Methods : GET, POST, OPTIONS
+Access-Control-Allow-Headers : Origin, Content-Type, Accept
 @RestController
 public class StudentsController {
     
