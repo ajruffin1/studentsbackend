@@ -15,7 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.students.demo.model.Students;
 import com.students.demo.repository.StudentsRepository;
 import com.students.demo.resource.StudentsRequest;
-@CrossOrigin(value= "http://localhost:3000")
+@CrossOrigin
+// (value= "https://studentsbackendmain.herokuapp.com/")
 @RestController
 public class StudentsController {
     
