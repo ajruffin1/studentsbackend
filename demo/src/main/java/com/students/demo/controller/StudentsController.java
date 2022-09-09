@@ -19,7 +19,7 @@ import com.students.demo.resource.StudentsRequest;
 // const cors = require('cors')
 // app.use(cors())
     
-Access-Control-Allow-Origin : https://studentsbackendmain.herokuapp.com/students
+Access-Control-Allow-Origin : "https://studentsbackendmain.herokuapp.com"
 Access-Control-Allow-Credentials : true
 Access-Control-Allow-Methods : GET, POST, OPTIONS
 Access-Control-Allow-Headers : Origin, Content-Type, Accept
