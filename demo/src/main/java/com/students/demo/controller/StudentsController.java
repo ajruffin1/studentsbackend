@@ -5,6 +5,7 @@ import java.util.Optional;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -23,7 +24,7 @@ import com.students.demo.resource.StudentsRequest;
 // Access-Control-Allow-Credentials : true
 // Access-Control-Allow-Methods : GET, POST, OPTIONS, DELETE
 // Access-Control-Allow-Headers : Origin, Content-Type, Accept
-
+@RequestMapping("/students")
 @RestController
 public class StudentsController {
     
