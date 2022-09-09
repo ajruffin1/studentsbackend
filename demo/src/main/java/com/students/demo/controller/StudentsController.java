@@ -19,10 +19,10 @@ import com.students.demo.resource.StudentsRequest;
 // const cors = require('cors')
 // app.use(cors())
     
-Access-Control-Allow-Origin : "*"
-Access-Control-Allow-Credentials : true
-Access-Control-Allow-Methods : GET, POST, OPTIONS, DELETE
-Access-Control-Allow-Headers : Origin, Content-Type, Accept
+// Access-Control-Allow-Origin : "*"
+// Access-Control-Allow-Credentials : true
+// Access-Control-Allow-Methods : GET, POST, OPTIONS, DELETE
+// Access-Control-Allow-Headers : Origin, Content-Type, Accept
 
 @RestController
 public class StudentsController {
