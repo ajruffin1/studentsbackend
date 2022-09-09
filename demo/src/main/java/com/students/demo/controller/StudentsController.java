@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.students.demo.model.Students;
 import com.students.demo.repository.StudentsRepository;
 import com.students.demo.resource.StudentsRequest;
-@CrossOrigin(origins= "https://studentsfrontendmain.herokuapp.com/", allowedHeaders = "*")
+@CrossOrigin=Access-Control-Allow-Origin: https://studentsfrontendmain.herokuapp.com/, allowedHeaders = "*")
 // const cors = require('cors')
 // app.use(cors())
     
