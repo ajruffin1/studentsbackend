@@ -26,6 +26,7 @@ import com.students.demo.resource.StudentsRequest;
 // Access-Control-Allow-Headers : Origin, Content-Type, Accept
 @RequestMapping("/students")
 @RestController
+[EnableCors(origins: "*", headers: "*", methods: "*")]
 public class StudentsController {
     
     private final StudentsRepository studentsRepository;
